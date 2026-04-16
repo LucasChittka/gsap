@@ -52,10 +52,10 @@ onMounted(() => {
     const tl = gsap.timeline(
         {
             scrollTrigger: {
-                pin: true,
+                pin: false,
                 trigger: details.value,
-                start: 'top top',
-                toggleActions: 'restart pause resume reset'
+                start: 'top center',
+                toggleActions: 'play none none none'
             }
         }
     );

@@ -15,7 +15,7 @@ let logoTween;
 onMounted(() => {
     logoTween = gsap.to(logo.value, {
         duration: 1,
-        scale: 1.05,
+        scale: 1.1,
         ease: 'easeInOut',
         repeat: -1,
         yoyo: true,
