@@ -8,17 +8,17 @@
             </div>
             <div class="flex flex-col space-y-14 text-lg">
                 <div class="flex justify-end ">
-                    <div class="rounded-l-full bg-teal-700 text-white py-10 content-center w-2/3 px-20 ">AssetOS ist
+                    <div class="rounded-l-full bg-teal-900 text-white py-10 content-center w-full px-20 ">AssetOS ist
                         toll
                     </div>
                 </div>
                 <div class="flex justify-end ">
-                    <div class="rounded-l-full bg-teal-700 text-white py-10 content-center w-2/3 px-20 ">Kauft mehr
+                    <div class="rounded-l-full bg-teal-900 text-white py-10 content-center w-4/5 px-20 ">Kauft mehr
                         AssetOS
                     </div>
                 </div>
                 <div class="flex justify-end ">
-                    <div class="rounded-l-full bg-teal-700 text-white py-10 content-center w-2/3 px-20 ">Und zwar bei
+                    <div class="rounded-l-full bg-teal-900 text-white py-10 content-center w-3/5 px-20 ">Und zwar bei
                         uns
                     </div>
                 </div>
