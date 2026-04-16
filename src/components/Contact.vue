@@ -1,6 +1,6 @@
 <template>
     <div class="bg-slate-100 h-screen content-center text-center">
-        <button v-if="!showMessage" @click="next" @mouseenter="expandButton" @mouseleave="reduceButton" ref="contact"
+        <button ref="contact" v-if="!showMessage" @click="next"
                 class="hover:bg-teal-950 cursor-pointer inline-block h-[80px] w-[220px] rounded-full bg-teal-900 text-white">
             <p>Kontakt</p>
         </button>
