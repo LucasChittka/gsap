@@ -4,7 +4,13 @@
                 class="hover:bg-teal-950 cursor-pointer inline-block h-[80px] w-[220px] rounded-full bg-teal-900 text-white">
             <p>Kontakt</p>
         </button>
-        <div v-if="showMessage" class="absolute left-1/2 top-1/3 inline-block border border-teal-200 rounded-full shadow bg-teal-800 text-xl text-white w-[400px] h-[400px] text-center content-center">Krasses Formular oder so</div>
+        <div v-if="showMessage" class="absolute inset-0 flex justify-center items-center">
+            <div
+                class="translate-x-54 border border-teal-200 rounded-full shadow bg-teal-800 text-xl text-white w-[400px] h-[400px] text-center content-center">
+                Krasses Formular oder so
+            </div>
+
+        </div>
     </div>
 </template>
 <script setup>
@@ -25,7 +31,7 @@ const expandButton = () => {
 }
 
 const reduceButton = () => {
-    if(blockMouseLeave.value) return;
+    if (blockMouseLeave.value) return;
     gsap.to(contact.value, {
         height: '80px',
         duration: 0.2,
@@ -37,12 +43,12 @@ const next = () => {
     blockMouseLeave.value = true;
     const tl = gsap.timeline();
     tl.to(contact.value, {
-        scale: 0.8,
+        scale: 0.7,
         translateY: '-6rem',
         duration: 0.3,
         ease: 'easeInOut'
     })
-    setTimeout(()=>{
+    setTimeout(() => {
         showMessage.value = true;
     }, 500)
 
