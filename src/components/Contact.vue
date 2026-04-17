@@ -11,7 +11,6 @@
     </div>
 </template>
 <script setup>
-import {gsap} from 'gsap';
 import {ref} from 'vue';
 
 const contact = ref();
