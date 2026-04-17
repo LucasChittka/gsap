@@ -55,7 +55,7 @@ onMounted(() => {
                 pin: false,
                 trigger: details.value,
                 start: 'top center',
-                toggleActions: 'play none none none'
+                toggleActions: 'play none none reset'
             }
         }
     );
