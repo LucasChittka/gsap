@@ -1,12 +1,12 @@
 <template>
-    <div class="bg-slate-100 h-screen content-center text-center relative">
+    <div class="bg-red-100 h-screen content-center text-center relative">
         <button @click="next" @mouseenter="expandButton" @mouseleave="reduceButton" ref="contact"
-                class="hover:bg-teal-950 cursor-pointer inline-block h-[80px] w-[220px] rounded-full bg-teal-900 text-white">
+                class="hover:bg-red-950 cursor-pointer inline-block h-[80px] w-[220px] rounded-full bg-red-900 text-white">
             <p>Kontakt</p>
         </button>
         <div v-if="showMessage" class="absolute inset-0 flex justify-center items-center">
             <div
-                class="translate-x-54 border border-teal-200 rounded-full shadow bg-teal-800 text-xl text-white w-[400px] h-[400px] text-center content-center">
+                class="translate-x-54 border border-red-200 text-red-800 rounded-full shadow bg-white text-xl w-[400px] h-[400px] text-center content-center">
                 Krasses Formular oder so
             </div>
 

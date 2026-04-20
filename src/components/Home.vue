@@ -1,7 +1,7 @@
 <template>
-    <div class="h-screen content-center bg-white text-3xl">
-        <a @mouseleave="resumeTween" @mouseenter="pauseTween" href="#details" ref="logo" class="block h-100 hover:bg-teal-950 transition-colors duration-300 w-100 rounded-full mx-auto bg-teal-900 content-center text-center"><span
-            class="text-teal-300">PARK</span><span class="text-white">EFFICIENT</span>
+    <div class="h-screen content-center bg-red-100 text-3xl">
+        <a @mouseleave="resumeTween" @mouseenter="pauseTween" href="#details" ref="logo" class="block h-100 hover:bg-red-950 transition-colors duration-300 w-100 rounded-full mx-auto bg-red-900 content-center text-center"><span
+            class="text-red-200 mr-1">Wuerzig</span><span class="text-white">Studios</span>
         </a>
     </div>
 </template>
