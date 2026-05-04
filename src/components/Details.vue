@@ -2,8 +2,8 @@
     <div ref="details" class="h-screen bg-red-50 flex flex-col justify-center">
         <div class="grid grid-cols-2 gap-x-10">
             <div class="flex justify-center">
-                <div class="border border-red-400 rounded px-6 pt-6 pb-2">
-                    <img class="h-100" src="../assets/wuerzig.jpeg">
+                <div class=" flex-none w-2/3 border border-red-400 rounded px-6 pt-6 pb-2">
+                    <img  src="../assets/wuerzig.jpeg">
                 </div>
             </div>
             <div class="flex flex-col space-y-14 text-lg">
